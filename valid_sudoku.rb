@@ -40,6 +40,15 @@ def is_valid_sudoku(board)
   true
 end
 
+# Someday...
+# @param {Character[][]} board
+# @return {Void} Do not return anything, modify board in-place instead.
+# def solve_sudoku(board)
+#   while board.flatten.find(".")
+
+#   end
+# end
+
 require 'test/unit'
 class MyTest < Test::Unit::TestCase
   # def setup

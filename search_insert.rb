@@ -41,7 +41,7 @@
 # end
 
 def search_insert(nums, target)
-  for i in 0..nums.length
+  for i in 0..nums.length - 1
     return i if nums[i] >= target
   end
   return nums.length
