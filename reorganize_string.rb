@@ -16,6 +16,8 @@ def reorganize_string(s)
       i += 1
     end
   end
+
+  while char_stack.length > 0
   new_s
 end
 puts reorganize_string("aab")
